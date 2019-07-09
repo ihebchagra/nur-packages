@@ -21,8 +21,6 @@ stdenv.mkDerivation {
 
   meta = with stdenv.lib; {
     description = "A system for automatically configuring mutt and isync with a simple interface and safe passwords";
-    license = licenses.gpl3;
-    platforms = platforms.linux;
   };
 
 }

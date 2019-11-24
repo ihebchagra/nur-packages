@@ -37,4 +37,12 @@ buildPythonPackage rec {
 	    docopt
 	    attrs
     ];
+
+  meta = with stdenv.lib; {
+    homepage = "https://github.com/seebye/ueberzug";
+    description = "alternative for w3mimgdisplay";
+    license = licenses.gpl3;
+    platforms = platforms.linux;
+  };
+
 }

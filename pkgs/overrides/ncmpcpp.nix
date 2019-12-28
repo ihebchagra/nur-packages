@@ -1,3 +1,3 @@
 with import <nixpkgs> {};
 
-ncmpcpp = pkgs.ncmpcpp.override { visualizerSupport = true; }
+ncmpcpp.override { visualizerSupport = true; }
